@@ -40,7 +40,7 @@ public class ModelTypeRegistry: @unchecked Sendable {
         "cohere": create(CohereConfiguration.self, CohereModel.init),
         "openelm": create(OpenElmConfiguration.self, OpenELMModel.init),
         "internlm2": create(InternLM2Configuration.self, InternLM2Model.init),
-//        "deepseekr1": create(DeepSeekR1Configuration.self, DeepSeekR1Model.init),
+        "deepseekr1": create(DeepSeekR1Configuration.self, DeepSeekR1Model.init),
     ]
 
     /// Add a new model to the type registry.
