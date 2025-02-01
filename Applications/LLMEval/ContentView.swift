@@ -160,11 +160,12 @@ class LLMEvaluator {
 
     /// This controls which model loads. `phi3_5_4bit` is one of the smaller ones, so this will fit on
     /// more devices.
-    let modelConfiguration = ModelRegistry.phi3_5_4bit
+//    let modelConfiguration = ModelRegistry.phi3_5_4bit
+    let modelConfiguration = ModelRegistry.deepSeekR1_1_5B_4bit
 
     /// parameters controlling the output
     let generateParameters = GenerateParameters(temperature: 0.6)
-    let maxTokens = 240
+    let maxTokens = 100000
 
     /// update the display every N tokens -- 4 looks like it updates continuously
     /// and is low overhead.  observed ~15% reduction in tokens/s when updating
