@@ -106,6 +106,11 @@ public class ModelRegistry: @unchecked Sendable {
         id: "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
         defaultPrompt: "Is 9.9 greater or 9.11?"
     )
+    
+    static public let deepSeekR1_14B_4bit = ModelConfiguration(
+        id: "mlx-community/DeepSeek-R1-Distill-Qwen-14B-4bit",
+        defaultPrompt: "Is 9.9 greater or 9.11?"
+    )
 
     static public let phi4bit = ModelConfiguration(
         id: "mlx-community/phi-2-hf-4bit-mlx",

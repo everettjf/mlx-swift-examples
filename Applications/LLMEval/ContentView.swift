@@ -162,6 +162,8 @@ class LLMEvaluator {
     /// more devices.
 //    let modelConfiguration = ModelRegistry.phi3_5_4bit
     let modelConfiguration = ModelRegistry.deepSeekR1_1_5B_4bit
+//    let modelConfiguration = ModelRegistry.deepSeekR1_7B_4bit
+//    let modelConfiguration = ModelRegistry.deepSeekR1_14B_4bit
 
     /// parameters controlling the output
     let generateParameters = GenerateParameters(temperature: 0.6)
